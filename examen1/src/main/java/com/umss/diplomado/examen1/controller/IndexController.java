@@ -14,4 +14,9 @@ public class IndexController {
     public String saludo1() {
         return "Hola soy el saludo2";
     }
+
+    @RequestMapping("/saludo3")
+    public String saludo3() {
+        return "Hola soy el saludo3";
+    }
 }
